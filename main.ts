@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     ha = input.temperature()
-    ha += ha * (1.8 + 32)
+    ha += ha * 1.8 + 32
     basic.showNumber(ha)
 })
 basic.forever(function () {
